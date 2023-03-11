@@ -1,0 +1,118 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    align-items: stretch;
+    width: 30%;
+    justify-content: center;
+    margin-left: 460px;
+    margin-right: 460px;
+}
+.panel{
+    border: 8px double white;
+    width: 96%;
+    height: 65px;
+    background-color: black;
+    color: white;
+    text-align: right;
+    font-size: 40px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.button{
+    height: 65px;
+    font-size: larger;
+    font-weight: bold;
+}
+.numbers-sign{
+    border: 2px solid black;
+    width: 99%
+}
+.row-1{
+    display: flex;
+    flex-direction: row;
+}
+.clear-all{
+    width: 49%;
+    margin-right: 3px;
+    margin-left: 2px;    
+    background-color: white;
+}
+.clear-all:hover{
+    background-color: lightgrey;
+}
+.backspace{
+    width: 24%;
+    margin-left: 1px;
+    margin-right: 2px;
+    background-color: white;
+}
+#bk{
+    font-size: xx-large;
+}
+.backspace:hover{
+    background-color: lightgrey;
+}
+.divide{
+    width: 24%;
+    margin-left: 1px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+}
+.number{
+    width: 24%;   
+}
+.number:hover{
+    background-color: #c9c4c4;
+}
+.seven{
+    margin-left: 2px;
+}
+.four{
+    margin-left: 2px;
+}
+.one{
+    margin-left: 2px;
+}
+.zero{
+    width: 74%;
+    margin-right: 3px;
+    margin-left: 2px;
+}
+.zero:hover{
+    background-color: #c9c4c4;
+}
+.plus{
+    background-color: orange;
+}
+.minus{
+    background-color: orange;
+}
+.multiply{
+    background-color: orange;
+}
+.equals-to{
+    width: 24%;
+    margin-left: -3px;
+    background-color: orange;
+}
+.divide:hover{
+    background-color: gold;
+}
+.multiply:hover{
+    background-color: gold;
+}
+.plus:hover{
+    background-color: gold;
+}
+.minus:hover{
+    background-color: gold;
+}
+.equals-to:hover{
+    background-color: gold;
+}
